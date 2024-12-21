@@ -8,12 +8,12 @@ function Home() {
       <div id='home' className='scroll-mt-24 max-w-[1200px] min-h-[85svh] mx-auto flex flex-wrap-reverse justify-center sm:justify-between items-center'>
 
         <div className='w-[640px] sm:w-[65%] text-center sm:text-left'>
-          <h1 className='font-bold text-xl mb-2'>Welcome to my Portfolio</h1>
+          <h1 className='font-bold text-xl mt-2 mb-2'>Welcome to my Portfolio</h1>
           <div className='text-center sm:text-left text-3xl sm:text-5xl font-black sm:leading-[60px]' >
             Hi I'm <br /><span className='text-customBlue'>Sudip Paul</span> <br /> <span className='font-bold'>
               <Typewriter
               options={{
-                strings: ['Web Developer', 'Backend'],
+                strings: [ 'Coder' , 'Student' , 'Web Developer'],
                 autoStart: true,
                 loop: true,
                 pauseFor:300,
