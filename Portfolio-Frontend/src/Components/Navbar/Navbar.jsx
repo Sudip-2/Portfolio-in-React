@@ -37,7 +37,7 @@ function Navbar() {
             >Blog</a>
             <Navlink NavlinkName="Contact Me" dest='#contact' />
           </div>
-    <div className='absolute h-screen flex top-0 items-center right-0'>
+    <div className='absolute h-[100svh] flex top-0 items-center right-0 z-[-1]'>
           <div className={`border-2 dark:border-0 bg-white dark:bg-gray-800 h-[250px] flex flex-col justify-evenly sm:hidden  rounded-full px-2 py-3`}>
             <Navicon NavlinkName={<FaHome />} dest='#home' />
             <Navicon NavlinkName={<IoMdPerson />} dest='#about' />
