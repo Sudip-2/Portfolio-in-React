@@ -31,7 +31,7 @@ function Home() {
         </div>
 
         <img
-          src="../../public/sudip.jpg"
+          src="../../sudip.jpg"
           alt="sudip's image"
           className='aspect-square w-[280px] sm:w-[35%] rounded-full'
         />
