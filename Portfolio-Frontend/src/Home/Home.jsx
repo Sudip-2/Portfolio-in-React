@@ -9,7 +9,7 @@ function Home() {
 
         <div className='w-[640px] sm:w-[65%] text-center sm:text-left'>
           <h1 className='font-bold text-xl mb-2'>Welcome to my Portfolio</h1>
-          <div className='text-center sm:text-left text-3xl sm:text-5xl font-black sm:leading-[60px]'>
+          <div className='text-center sm:text-left text-3xl sm:text-5xl font-black sm:leading-[60px]' >
             Hi I'm <br /><span className='text-customBlue'>Sudip Paul</span> <br /> <span className='font-bold'>
               <Typewriter
               options={{
@@ -31,7 +31,7 @@ function Home() {
         </div>
 
         <img
-          src="../../src/assets/sudip.jpg"
+          src="../../public/sudip.jpg"
           alt="sudip's image"
           className='aspect-square w-[280px] sm:w-[35%] rounded-full'
         />
