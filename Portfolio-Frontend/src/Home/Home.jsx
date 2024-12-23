@@ -8,9 +8,21 @@ function Home() {
       <div id='home' className='scroll-mt-24 max-w-[1200px] min-h-[85svh] mx-auto flex flex-wrap-reverse justify-center sm:justify-between items-center'>
 
         <div className='w-[640px] sm:w-[65%] text-center sm:text-left'>
-          <h1 className='font-bold text-xl mt-2 mb-2'>Welcome to my Portfolio</h1>
-          <div className='text-center sm:text-left text-3xl sm:text-5xl font-black sm:leading-[60px]' >
-            Hi I'm <br /><span className='text-customBlue'>Sudip Paul</span> <br /> <span className='font-bold'>
+          <h1 className='text-xl mt-2 mb-2'
+          style={{
+            fontWeight:"bold"
+          }}
+          >Welcome to my Portfolio</h1>
+          <div className='text-center sm:text-left text-3xl sm:text-5xl sm:leading-[60px]' 
+          style={{
+            fontWeight:900
+          }}
+          >
+            Hi I'm <br /><span className='text-customBlue'>Sudip Paul</span> <br /> <span 
+            style={{
+              fontWeight:700
+            }}
+            >
               <Typewriter
               options={{
                 strings: [ 'Coder' , 'Student' , 'Web Developer'],
