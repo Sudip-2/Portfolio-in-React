@@ -7,8 +7,9 @@ const Infiniteslider = () => {
 
     return (
         <>
+        <div className='overflow-hidden'>
             <div
-                className={`w-full min-w-[1200px] overflow-hidden mt-8 sm:mt-4`}
+                className={`w-full min-w-[1200px] mt-8 sm:mt-4`}
                 style={{
                     height: height
                 }}
@@ -26,6 +27,7 @@ const Infiniteslider = () => {
                     <Slideritems imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png?20230715030042" altText="ReactImage" aniDelay="7s" height='80px' width='120px' />
 
                 </div>
+            </div>
             </div>
         </>
     )

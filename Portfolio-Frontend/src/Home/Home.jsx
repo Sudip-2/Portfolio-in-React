@@ -37,9 +37,9 @@ function Home() {
           </motion.div>
           <p className='my-6 sm:mt-4 sm:mb-8 sm:text-lg'>I am Currently pursuing BCA, Interested In WebDevelopment <br /> Explore my collection of projects</p>
           <div className='flex gap-3 sm:gap-6 justify-center sm:justify-start flex-wrap'>
-            <button className='bg-customBlue text-white px-6 py-2 rounded-full w-full sm:w-[130px]'>Hire Me!</button>
+            <button className='hover:bg-blue-400 duration-200 bg-customBlue text-white px-6 py-2 rounded-full w-full sm:w-[130px]'>Hire Me!</button>
             <button
-              className='bg-white border border-customBlue text-customBlue px-6 py-2 w-full sm:w-[180px] rounded-full flex items-center justify-center gap-2'
+              className='hover:bg-customBlue hover:text-white duration-200 dark:bg-gray-200 dark:border-none dark:hover:bg-white dark:hover:text-customBlue bg-white border border-customBlue text-customBlue px-6 py-2 w-full sm:w-[180px] rounded-full flex items-center justify-center gap-2'
             >Download CV <FaFileDownload />
             </button>
           </div>
